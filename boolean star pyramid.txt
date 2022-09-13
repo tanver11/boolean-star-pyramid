@@ -1,0 +1,17 @@
+n = 4
+b = bool(int(input("please add 0 for False")))
+
+i=0
+if b ==True:
+    for i in range(n):
+        for j in range(i + 1):
+            print("*", end=" ")
+        print()
+
+
+elif b ==False:
+
+    for i in range(n):
+        for j in range(n - i):
+            print("*", end=" ")
+        print()
